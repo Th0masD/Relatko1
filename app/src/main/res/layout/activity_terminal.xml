@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/terminal_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="368dp"
+        android:layout_height="219dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+
+    <Button
+        android:id="@+id/extra_button_1"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/button1"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/extra_button_2"
+        android:layout_width="128dp"
+        android:layout_height="40dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/button2"
+        android:textSize="12sp" />
+<!--
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:enabled="false"
+        android:singleLine="true"
+        android:text="@string/send" />
+
+        -->
+
+
+</LinearLayout>

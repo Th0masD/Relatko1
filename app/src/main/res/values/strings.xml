@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TerminalUprava2</string>
+    <string name="button1">ON</string>
+    <string name="button2">OFF</string>
+    <string name="send">Send</string>
+    <string name="connect">Connect</string>
+    <string name="port">Port</string>
+    <string name="ip_address">IP Address</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="connection">Connection</string>
+    <string name="carriage_return">Carriage Return</string>
+    <string name="line_feed">Line Feed</string>
+    <string name="button_title">Button Title</string>
+    <string name="button_message">Button Message</string>
+    <string name="clear_input">Clear input after send</string>
+
+
+    <string name="permission_dailog_title">Permissions Required</string>
+    <string name="permission_dailog_msg">You have forcefully denied some of the required permissions  for this action. Please open settings, go to permissions and allow them.</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="permissions_alert">Please open settings, go to permissions and allow them require permissions.</string>
+
+</resources>

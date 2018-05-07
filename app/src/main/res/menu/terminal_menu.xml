@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/connection_status"
+        android:icon="@drawable/circle"
+        android:title="@string/connection"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/carriage_return"
+        android:checkable="true"
+        android:title="@string/carriage_return"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/line_feed"
+        android:checkable="true"
+        android:title="@string/line_feed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/clear_input"
+        android:checkable="true"
+        android:title="@string/clear_input"
+        app:showAsAction="never" />
+</menu>
